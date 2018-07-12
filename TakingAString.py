@@ -6,6 +6,9 @@ temp1 = map(int, raw_input().split())
 
 temp2 = [int(i) for i in raw_input().split()]
 
+#or
+
+temp3 = map(lambda x: int(x), raw_input().split())
 
 print temp1[2]
 
